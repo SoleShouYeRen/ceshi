@@ -14,4 +14,4 @@ script:
   - npm run build
   - npm run test
 test:
-  - npm run test # 运行自动测试框架12
+  - npm run test # 运行自动测试框架12234
