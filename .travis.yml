@@ -4,5 +4,14 @@ node_js:
 cache: # 缓存 node_js 依赖，提升第二次构建的效率
   directories:
     - node_modules
+install:
+  - npm install
+
+before_script:
+
+# 无其他依赖项所以执行npm run build 构建就行了
+script:
+  - npm run build
+  - npm run test
 test:
   - npm run test # 运行自动测试框架
