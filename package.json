@@ -10,7 +10,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib packages/index.js"
+    "lib": "vue-cli-service build --target lib packages/index.js",
+    "test": "jest ./test/09，矩阵"
   },
   "dependencies": {
     "core-js": "^3.6.4",
@@ -31,7 +32,13 @@
     "husky": "^6.0.0",
     "sass": "^1.25.0",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.6",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^24.5.0",
+    "babel-preset-env": "1.7.0",
+    "jest": "^24.5.0"
   },
   "eslintConfig": {
     "root": true,
